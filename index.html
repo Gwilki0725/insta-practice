@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-TODO: Fix the styling for the side navigation menu 
+TODO: Fix the styling for the side navigation menu
 TODO: Fix the styling for the top navigation menu
 TODO: Fix the styling for the posts
 
@@ -9,7 +9,7 @@ TODO: What other functions do you need to have? Comments? Profiles?
 <html>
     <head>
         <link rel="stylesheet" href = "style.css">
-        <script src="email-script.js"></script>
+        <script src="insta-script.js" async></script>
     </head>
     <body>
         <!-- TOP NAVIGATION MENU -->
@@ -21,7 +21,7 @@ TODO: What other functions do you need to have? Comments? Profiles?
                 </form>
             </div>
         </div>
-        
+
         <div class="ctent">
             <!-- FEED -->
             <div class="feed">
@@ -30,6 +30,11 @@ TODO: What other functions do you need to have? Comments? Profiles?
                     <!-- Please try not to use any copyrighted pictures; lots of royalty-free pictures can be found here https://pixabay.com/ -->
                     <img src="images/autumnleaves.jpg" alt="autumn leaves">
                     <p>A caption, I guess</p>
+                    <br>
+                    <button id="load-comments" onclick="toggleComments()">Show comments</button>
+                    <div class="comments" style="display: none">
+                      <p> <b> user_name </b>  Cool pic! </p>
+                    </div>
                 </div>
                 <div class="post" id="1">
                     <p>Post</p>

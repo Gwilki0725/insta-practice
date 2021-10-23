@@ -24,7 +24,20 @@ img {
     margin:10px;
     text-align: left;
     border:1px solid black;
-    
+}
+
+#load-comments {
+  size: 1em;
+  color: lightgray;
+  font-style: italic;
+  font-family: serif;
+  background: inherit;
+  border: none;
+  cursor: default;
+}
+
+#load-comments:hover {
+  cursor: pointer;
 }
 
 /* -------- SIDE NAVIGATION MENU -------*/
@@ -129,6 +142,6 @@ img {
         padding: 14px;
     }
     .topnav input[type=text] {
-        border: 1px solid #ccc;  
+        border: 1px solid #ccc;
     }
 }
